@@ -1,0 +1,16 @@
+{
+  "name": "pokemon-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node main.js",
+    "debug": "PWDEBUG=1 node main.js"
+  },
+  "author": "laiso",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run",
+      "program": "${workspaceFolder}/main.js",
+      "args": [
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "env": {
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run",
+      "program": "${workspaceFolder}/main.js",
+      "args": [
+      ],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "env": {
+        "PWDEBUG": "1"
+      }
+    }
+  ]
+}
